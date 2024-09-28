@@ -1,0 +1,52 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header>
+  <div class="blok">
+    <div class="logo">
+      <img src="img/wbl-logo.svg">
+    </div>
+
+    <menu>
+      <li><a href='about.html'>About</a></li>
+      <li><a href='art.html'>Art</a></li>
+      <li><a href='contact.html'>Contact</a></li>
+    </menu>
+  </div>
+</header>
+
+
+
+<footer>
+
+  <div>
+    <a href="https://opensea.io/collection/webnaturelovers">
+
+      <img src="img/hmn9.svg" class="promo-img2" id="image_id2" />
+
+    </a>
+
+
+          <script>
+
+    var images2  = ['img/hmn9.svg', 'img/hmn12.svg', 'img/hmn13.svg', 'img/hmn18.svg', 'img/hmn111.svg'],
+        length  = images2.length,
+        index   = 1;
+
+    setInterval(function() {
+        if(index == length) index = 0;
+        document.getElementById('image_id2').src = images2[index++];
+    }, 800);
+          </script>
+  </div>
+
+</footer>
+
+</body>
+</html>
