@@ -1,3 +1,3 @@
 всем привет
 
-http://username.github.io/webnaturelovers
+http://username.github.io/webnaturelovers/about.html
