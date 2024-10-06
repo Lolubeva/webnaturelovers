@@ -16,7 +16,16 @@ body {
   display: flex;
   margin-top: 30px;
   justify-content: center;
+}
 
+.blok3 {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1  {
@@ -26,7 +35,14 @@ h1  {
 .blok2 img {
 height: 250px;
 margin: 10px;
+}
 
+.blok3 img {
+height: 100px;
+}
+
+.icon {
+  height: 50px;
 }
 
 menu {
